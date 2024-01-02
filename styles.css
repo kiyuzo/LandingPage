@@ -1,0 +1,195 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#header-img {
+    width: 15vh;
+    padding-left: 3%;
+    padding-top: 2px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#nav-bar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    padding-left: 5vh;
+    position: relative;
+}
+
+#nav-bar li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: all ease-in-out 250ms;
+}
+
+#nav-bar li a:hover::before {
+    width: 80%;
+}
+
+#main-sec {
+    margin-top: 10vh;
+    padding: 10px;
+}
+
+#startline {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15vh;
+}
+
+#ytvid {
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15vh;
+}
+
+#ytvid p {
+    margin-bottom: 30px;
+}
+
+#deckcomp {
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15vh;
+}
+
+#deckcomp h1 {
+    text-align: center;
+}
+
+#deckcomp img {
+    width: 5%;
+    margin-right: 2vh;
+}
+
+.deckdesc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#product {
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15vh;
+}
+
+#product img {
+    margin-top: 5vh;
+    width: 25%;
+    margin-right: 8%;
+}
+
+#product img:hover {
+    transform: scale(1.1);
+}
+
+#order {
+    text-align: center;
+}
+
+#order input {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#email {
+    width: 40vh;
+    height:4vh;
+}
+
+#submit {
+    background-color: rgb(243, 173, 160);
+    border-style: none;
+    padding: 1.5vh;
+    font-weight: 600;
+}
+
+#submit:hover {
+    background-color: rgb(243, 105, 105);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #header-img {
+        width: 10vh;
+    }
+
+    #nav-bar li a {
+        font-size: 1rem;
+    }
+
+    #main-sec {
+        margin-top: 15vh;
+    }
+
+    #startline {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #ytvid {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #ytvid iframe {
+        width: 100%;
+    }
+
+    #deckcomp {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #product {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #product img {
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    #order {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    #email {
+        width: 80%;
+    }
+}

@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <a href="#main-sec"><img src="./assets/Vanguardlogopng.png" alt="Vanguard" id="header-img"></a>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#ytvid" class="nav-link">Whats a Deckset?</a></li>
+                <li><a href="#deckcomp" class="nav-link">Whats Inside</a></li>
+                <li><a href="#product" class="nav-link">Choose Your Avatar!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-sec">
+        <!-- What is cardfight vanguard? -->
+        <div id="startline">
+            <h1>What is Cardfight Vanguard?</h1>
+            <p>Welcome, fellow Cardfighter, to the world of Cardfight!! Vanguard!Imagine it! Exciting battles await on the Earth-like “Planet Cray”!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse suscipit hic quaerat voluptas voluptatem tempora alias doloribus rem at natus asperiores eveniet tempore reiciendis, accusantium error qui, porro officia impedit quasi ipsum. Voluptatibus, molestias molestiae eum eos praesentium dolor, laborum voluptas, est necessitatibus qui unde ipsam minus nam et. Delectus!</p>
+            <p>Lead the charge as the Vanguard, and show your allies the path to victory!</p>
+        </div>
+        
+        <!-- Video -->
+        <div id="ytvid">
+            <h1>Stand Up! Deckset</h1>
+            <p>Stand Up! Deckset is a ready to play deck consisting of 50 powerful cards. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam et suscipit delectus optio. Molestias temporibus omnis cupiditate assumenda ipsum.</p>
+            <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/FC7lWhWZwHc?si=iSpCjflGnUwz9dmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- What you get in the deck -->
+        <div id="deckcomp">
+            <h1>What you get in the deck</h1>
+            <div class="deckdesc">
+                <img src="assets/helmet-battle.png" alt="knight icon">
+                <p>Your favorite Avatar! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore similique veniam non reprehenderit numquam voluptatibus repellat dolor sequi ut quia?</p>
+            </div>
+            <div class="deckdesc"> 
+                <img src="assets/sword.png" alt="sword icon">
+                <p>Strong and Powerful units to support your Avatar! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis hic, molestias tempore non nostrum debitis labore eos inventore voluptas? Itaque!</p>
+            </div>
+            <div class="deckdesc">   
+                <img src="assets/boxes.png" alt="boxes icon">
+                <p>Sleeves and Deck Box to store your deck safely! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, pariatur! Omnis, fugiat nesciunt aliquam quidem ipsum molestiae itaque deserunt nisi!</p>
+            </div>
+        </div>
+
+        <!-- Choose your avatar -->
+        <div id="product">
+            <h1>Choose Your Deckset!</h1>
+            <img src="assets/Deckset/orfist.webp" alt="Orfist Deckset">
+            <img src="assets/Deckset/gramgrace.webp" alt="Gramgrace Deckset">
+            <img src="assets/Deckset/favrneel.webp" alt="Favrneel Deckset">
+        </div>
+
+        <!-- Where to order -->
+        <div id="order">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="email" id="email-label"><h1>Enter your email and you will be sent to the order section!</h1></label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <input type="submit" value="Order Now" id="submit">
+            </form> 
+        </div>
+    </main>
+</body>
+</html>
